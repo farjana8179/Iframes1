@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Viewer</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+
+        iframe {
+            border: 2px solid #333;
+            border-radius: 8px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        a:hover {
+            background-color: #0056b3;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <iframe src="" height="489px" width="859px" name="HTMLPIC"></iframe><br><br>
+            <a href="D:/programs/image.jpeg.png" target="HTMLPIC">View Local Image</a>
+        </div>
+
+        <div class="section">
+            <iframe src="" height="700px" width="650px" name="HTML_IMAGE"></iframe><br><br>
+            <a href="html.png" target="HTML_IMAGE">Image</a>
+            <a href="chuttamalle.mp3" target="HTML_IMAGE">Audio</a>
+            <a href="video.mp4" target="HTML_IMAGE">Video</a>
+            <a href="https://www.flipkart.com/" target="HTML_IMAGE">Website</a>
+        </div>
+    </div>
+</body>
+</html>
